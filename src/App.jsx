@@ -1,10 +1,10 @@
-// import logo from './logo.svg';
-import './css/App.css';
+import logo from './components/assets/logo.svg';
 import SignIn from './components/app/SignIn';
 
 function App() {
   return (
     <>
+    <img src={logo} className="App-logo" alt="logo" />
     <SignIn />
     </>
     );
