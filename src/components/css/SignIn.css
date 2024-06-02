@@ -8,18 +8,20 @@
 html,body{
   display: grid;
   height: 100%;
-  width: 100%;
   place-items: center;
-  background: -webkit-linear-gradient(left, #003366,#004080,#0059b3
+  width: 100%;
+  background: -webkit-linear-gradient(#F8B38D,#29ABCA,#F08A50
 , #0073e6);
 }
-::selection{
-  background: #1a75ff;
-  color: #fff;
+
+.App-logo {
+  display: flex;
+  height: 15vmin;
+  margin: 0 auto 1rem auto;
 }
-.wrapper{
+.wrapper {
   overflow: hidden;
-  max-width: 390px;
+  width: 400px;
   background: #fff;
   padding: 30px;
   border-radius: 15px;
@@ -69,8 +71,8 @@ html,body{
   left: 0;
   z-index: 0;
   border-radius: 15px;
-  background: -webkit-linear-gradient(left,#003366,#004080,#0059b3
-, #0073e6);
+  background: -webkit-linear-gradient(right,#964605,#bb7a2a,#9c3c05
+, #e668009c);
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 input[type="radio"]{
@@ -141,9 +143,10 @@ form .field input:focus::placeholder{
   margin-top: 30px;
 }
 .form-inner form .pass-link a,
-.form-inner form .signup-link a{
-  color: #1a75ff;
+.form-inner form .signup-link{
+  color: #29ABCA;
   text-decoration: none;
+  font-weight:500;
 }
 .form-inner form .pass-link a:hover,
 .form-inner form .signup-link a:hover{
@@ -161,8 +164,8 @@ form .btn .btn-layer{
   width: 300%;
   position: absolute;
   left: -100%;
-  background: -webkit-linear-gradient(right,#003366,#004080,#0059b3
-, #0073e6);
+  background: -webkit-linear-gradient(right,#964605,#bb7a2a,#9c3c05
+  , #e668009c);
   border-radius: 15px;
   transition: all 0.4s ease;;
 }

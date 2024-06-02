@@ -44,13 +44,16 @@ const SignIn = () => {
                                 <div className="btn-layer"></div>
                                 <input type="submit" value="Login" />
                             </div>
-                            <div className="signup-link">Not yet registered? <a href="">Signup now</a></div>
+                            <div className="signup-link">Sign up if not yet registered! </div>
                         </form>
                         <form action="#" className="signup" style={{ display: formType === 'signup' ? 'block' : 'none' }}>
                             <div className="field">
-                                <input type="text" placeholder="Email Address" required />
+                                <input type="text" placeholder="Name" required />
                             </div>
                             <div className="field">
+                                <input type="text" placeholder="Email Address" required />
+                            </div>
+                         <div className="field">
                                 <input type="password" placeholder="Password" required />
                             </div>
                             <div className="field">

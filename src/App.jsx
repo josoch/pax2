@@ -1,4 +1,4 @@
-import logo from './components/assets/logo.svg';
+import logo from './components/assets/logo.png';
 import SignIn from './components/app/SignIn';
 
 function App() {
